@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainlag</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/render.js"></script>
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+<!-- info -->
+<div class="info">
+    <p class="static-text">designed &amp; developed by &copy; <span id="year"></span> brainlag</p>
+</div>
+<!-- gallery -->
+<div class="gallery"></div>
+<!-- header -->
+<header class="header">
+    <div class="logo"></div>
+    <span class="brand">Brainlag</span>
+    <div class="header-buttons">
+        <button class="header-button" id="aboutButton">About</button>
+        <button class="header-button" onclick="window.location.href='mailto:contact@brainlag.live'">Contact</button>
+    </div>
+</header>
+<!-- about -->
+<div class="about">
+    <p class="description">Hi! I’m <span class="highlight" data-tooltip="tooltip">Ashley</span>, a queer multimedia artist with a passion for procedural art.
+        My work explores themes of ecology, artificiality and contemporary issues of society through the fusion of sight & sound.</p>
+    <div class="links">
+        <p><a class="email" href="mailto:contact@brainlag.live">contact@brainlag.live</a></p>
+        <p><a class="instagram" href="https://www.instagram.com/___brainlag/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+    </div>
+</div>
+<div class="checkers"></div>
+<div class="cursor"></div>
+
+<img id="tooltip" src="/assets/img/me.jpg" alt="Tooltip Image" class="tooltip" />
+</body>
+</html>
